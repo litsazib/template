@@ -1,0 +1,59 @@
+.page-heading {
+  background-color: transparent;
+  box-shadow: none;
+  margin: -30px -30px 30px;
+  padding: 36px 30px 29px;
+}
+.page-heading .page-title {
+  font-family: "HiraginoSans-W6";
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.17px;
+  color: #424242;
+}
+.tbl-left tr th {
+  border: 0;
+  border-bottom: 0;
+  border-top: 0;
+}
+th.tbl-th-left {
+  border-bottom: 0;
+  padding: 0;
+}
+.table thead th {
+  border-bottom: 0;
+}
+.tbl-th-mid {
+  width: 60%;
+  padding: 0 !important;
+}
+th.tbl-th-right {
+  width: 10%;
+  padding: 0;
+}
+.small-btn {
+  border-radius: 3px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #13a3e8;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  font-size: 12px;
+  letter-spacing: 0.67px;
+  font-family: "HiraginoSans-W6";
+  padding: 1px 0;
+  box-sizing: border-box;
+}
+.tbl-th-mid {
+  width: 100%;
+}
+.scrollTbl {
+  width: 95%;
+  overflow-x: scroll;
+  display: block;
+  margin: auto;
+}
