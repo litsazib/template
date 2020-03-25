@@ -105,7 +105,15 @@ th.tbl-th-right {
   width: 70%;
   float: left;
   color: #212529;
-  border-top: 8px solid #4264ec;
+}
+.mid-table .inner-widthForScroll {
+  overflow-x: scroll;
+}
+.mid-table .inner-widthForScroll .middle-table {
+  width: 120%;
+}
+.mid-table .inner-widthForScroll .middle-tbody tr td {
+  height: 75px;
 }
 .right-table {
   border-left: solid 2px rgba(51, 51, 51, 0.15);
