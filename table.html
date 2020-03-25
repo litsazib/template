@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Main CSS-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/table.css">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -143,13 +143,14 @@
       <div class="row">
         <div class="col-md-12">
           <div class="tile" style="padding:0px;">
-            <div class="table-responsive">
-              <table class="table">
+            <div class="responsive-table">
+              
+              <!-- left table 1st one -->
+              <table class="table left-table">
                 <thead>
                   <tr>
-                    
-                    <th class="tbl-th-left" style="width:20%"> 
-                      <table class="tbl-left" style="width:100%;">
+                    <th class="tbl-th-left"> 
+                      <table style="width:100%;">
                         <thead>
                           <tr>
                             <th>ID</th>
@@ -176,113 +177,45 @@
                         </tbody>
                       </table>
                     </th>
-                    <!-- .END LEFT TABLE -->
-                    
-                    <th class="tbl-th-mid">
-                      <table class="tbl-left scrollTbl">
-                        <thead>
-                          <tr>
-                            <th>Item1</th>
-                            <th>Item1</th>
-                            <th>Item1</th>
-                            <th>Item1</th>
-                            <th>Item1</th>
-                            <th>Item1</th>
-                            <th>Item1</th>
-                            
-                            <th>Item1</th>
-                            <th>Item1</th>
-                            <th>Item1</th>
-                            
-                            <th>Item1</th>
-                            <th>Item1</th>
-                            <th>Item1</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                          </tr>
-                          <tr>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                          </tr>
-                          <tr>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            
-                            <td>Item1</td>
-                            <td>Item1</td>
-                            <td>Item1</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </th>
-                    <!-- .END MID TABLE -->
-                    
-                    <th class="tbl-th-right" style="width:10%;">
-                      <table class="tbl-left" style="width:100%;">
-                        <thead>
-                          <tr>
-                            <th style="visibility:hidden;">Button</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td> <a class="small-btn" href="#">編集</a> </td>
-                          </tr>
-                          <tr>
-                            <td> <a class="small-btn" href="#">編集</a> </td>
-                          </tr>
-                          <tr>
-                            <td> <a class="small-btn" href="#">編集</a> </td>
-                          </tr>
-            
-                        </tbody>
-                      </table>
-                    </th>
-                    <!-- .END RIGHT TABLE -->
                   </tr>
                 </thead>
               </table>
-            </div>
-
+              
+              <!-- middle part Scroll table 2nd one  -->
+              <div class="mid-table">
+                <div class="inner-widthForScroll">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione eaque odit fugiat quas id commodi, harum eos reprehenderit aspernatur dolores.</p>
+                </div>
+              </div>
+              
+              <!-- right table 3rd one -->
+              <table class="table right-table">
+                <thead>
+                  <tr>
+                    <th class="tbl-th-left"> 
+                      <table style="width:100%;">
+                        <thead>
+                          <tr>
+                            <th class="hidden">Button</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="btn-h75"> <a class="small-btn" href="#">編集</a> </td>
+                          </tr>
+                          <tr>
+                            <td class="btn-h75"> <a class="small-btn" href="#">編集</a> </td>
+                          </tr>
+                          <tr>
+                            <td class="btn-h75"> <a class="small-btn" href="#">編集</a> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </th>
+                  </tr>
+                </thead>
+              </table>
+              
           </div>
         </div>
       </div>
